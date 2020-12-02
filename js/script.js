@@ -93,15 +93,15 @@ function piramida(d){
     let h = 1;
 
     if(arguments.length > 1){
-        for(i = 1; i <= d; i++){
-            for(j = 1; j <= i+i-1; j++){
+        for(let i = 1; i <= d; i++){
+            for(let j = 1; j <= i+i-1; j++){
                 document.write(arguments[1]);
             }
             document.write('<br/>');
         }
     }else {
-        for(i = 1; i <= d; i++){
-            for(j = 1; j <= i+i-1; j++){
+        for(let i = 1; i <= d; i++){
+            for(let j = 1; j <= i+i-1; j++){
                 document.write(h);
             }
             h++;
